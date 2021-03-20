@@ -6,3 +6,7 @@ version 0.1
 -random values for 3 boxes(based on 0)
 -hosted live on:
 https://andreisguess.tiiny.site/index.html
+
+version 0.2
+-added option to set number of boxes
+-added variable win chance
