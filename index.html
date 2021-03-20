@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>GuessTheButton! Andrei's project</title>
+  </head>
+
+
+  <body style="background-color:darkgrey;">
+    <header>
+      <nav align="center">
+        <a href="./index.html" id="index"><h2 align="center" ><strong>Guess the Button!</strong><h2></a>
+      </nav>
+    </header>
+    
+    <main>
+    
+      <section class="game">
+        <div id="buttons" align="center" style="background-color:grey;">
+          <h2>Choose how many boxes to try out:</h2>
+          <input id="button-nrs" type="number" min="1" max="10" required>
+          <br>
+          <br>
+          <input type="button" value="Play!" onclick="generateButtons();">
+        </div>
+      </section>
+
+      <script src="playFunction.js"></script>
+      <script src="generateButtonID.js"></script>
+      <script src="generateButtons.js"></script>
+
+    </main>
+
+    <footer>
+    </footer>
+
+  </body>
+</html>
